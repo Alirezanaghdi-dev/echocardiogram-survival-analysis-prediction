@@ -1,0 +1,144 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual Environment
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+.env
+.venv
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# Jupyter Notebook
+# ============================================
+.ipynb_checkpoints
+*.ipynb_checkpoints/*
+.jupyter/
+
+# ============================================
+# IDEs & Editors
+# ============================================
+# VS Code
+.vscode/
+*.code-workspace
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# ============================================
+# Operating Systems
+# ============================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ============================================
+# Project Specific
+# ============================================
+# Generated outputs (optional - uncomment if needed)
+# outputs/figures/*.png
+# outputs/figures/*.jpg
+# outputs/models/*.pkl
+# outputs/models/*.joblib
+# *.html
+# *.pdf
+
+# Data files (if dataset shouldn't be public)
+# data/*.csv
+# data/*.xlsx
+# data/*.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# ============================================
+# Other
+# ============================================
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Test
+.tox/
+.pytest_cache/
+.mypy_cache/
+
+# Configuration files
+config.ini
+settings.json
+secrets.py
